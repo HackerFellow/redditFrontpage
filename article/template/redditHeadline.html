@@ -1,0 +1,15 @@
+<article class="reddit-headline row">
+	<div class="col-md-1 thumbnail-container">
+		<img ng-src="{{post.data.thumbnail}}" ng-show="image" alt="post thumnail">
+	</div>
+	<div class="col-md-11">
+		<h3><a href="{{post.data.url}}">{{post.data.title}}</a></h3>
+		<!--For 404 error ask about self string at https://docs.angularjs.org/api/ng/service/$sce#format-of-items-in-link-ng-scedelegateprovider-resourceurlwhitelist-resourceurlwhitelist-link-ng-scedelegateprovider-resourceurlblacklist-blacklist-a-name-resourceurlpatternitem-a- -->
+		<!--<p>Maybe some other info</p>-->
+	</div>
+	<!--
+	<pre>{{image}}</pre>
+	<pre>{{post.data | json}}</pre>
+	-->
+
+</article>

@@ -1,0 +1,19 @@
+.reddit-headline h3 {
+	margin-top: 5px;
+	padding-top: 0;
+
+
+}
+.container{
+	margin-top: 50px;
+}
+ul{
+	list-style-type: none;
+	padding-left: none;
+}
+.thumbnail-container{
+	padding: 0;
+}
+img{
+	width: 100%;
+}
